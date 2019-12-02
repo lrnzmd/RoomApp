@@ -11,11 +11,11 @@
 9-->C:\Users\lrnzm\AndroidStudioProjects\RoomApp\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\lrnzm\AndroidStudioProjects\RoomApp\app\src\main\AndroidManifest.xml:5:5-19:19
+11-->C:\Users\lrnzm\AndroidStudioProjects\RoomApp\app\src\main\AndroidManifest.xml:5:5-20:19
 12        android:allowBackup="true"
 12-->C:\Users\lrnzm\AndroidStudioProjects\RoomApp\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\61a4322994bff311c55a1e748aab7916\core-1.1.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.1.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\f71f8da7ba118f56b7a69563a8255a28\core-1.1.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->C:\Users\lrnzm\AndroidStudioProjects\RoomApp\app\src\main\AndroidManifest.xml:7:9-43
@@ -42,24 +42,27 @@
 25-->C:\Users\lrnzm\AndroidStudioProjects\RoomApp\app\src\main\AndroidManifest.xml:16:27-74
 26            </intent-filter>
 27        </activity>
-28
-29        <service
-29-->[androidx.room:room-runtime:2.2.1] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\f1e34e8716a4c19fc9c1102201bfaf46\room-runtime-2.2.1\AndroidManifest.xml:25:9-27:40
-30            android:name="androidx.room.MultiInstanceInvalidationService"
-30-->[androidx.room:room-runtime:2.2.1] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\f1e34e8716a4c19fc9c1102201bfaf46\room-runtime-2.2.1\AndroidManifest.xml:26:13-74
-31            android:exported="false" />
-31-->[androidx.room:room-runtime:2.2.1] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\f1e34e8716a4c19fc9c1102201bfaf46\room-runtime-2.2.1\AndroidManifest.xml:27:13-37
-32
-33        <provider
-33-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\4ff92c30a80c580fed717c13bea1d89a\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:25:9-29:43
-34            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-34-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\4ff92c30a80c580fed717c13bea1d89a\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:26:13-79
-35            android:authorities="com.example.roomapp.lifecycle-process"
-35-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\4ff92c30a80c580fed717c13bea1d89a\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:27:13-69
-36            android:exported="false"
-36-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\4ff92c30a80c580fed717c13bea1d89a\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:28:13-37
-37            android:multiprocess="true" />
-37-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\4ff92c30a80c580fed717c13bea1d89a\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:29:13-40
-38    </application>
-39
-40</manifest>
+28        <activity android:name="com.example.roomapp.NewWordActivity" />
+28-->C:\Users\lrnzm\AndroidStudioProjects\RoomApp\app\src\main\AndroidManifest.xml:19:9-53
+28-->C:\Users\lrnzm\AndroidStudioProjects\RoomApp\app\src\main\AndroidManifest.xml:19:19-50
+29
+30        <service
+30-->[androidx.room:room-runtime:2.2.2] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\0051f28377355d7655cd9be86066dec9\room-runtime-2.2.2\AndroidManifest.xml:25:9-27:40
+31            android:name="androidx.room.MultiInstanceInvalidationService"
+31-->[androidx.room:room-runtime:2.2.2] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\0051f28377355d7655cd9be86066dec9\room-runtime-2.2.2\AndroidManifest.xml:26:13-74
+32            android:exported="false" />
+32-->[androidx.room:room-runtime:2.2.2] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\0051f28377355d7655cd9be86066dec9\room-runtime-2.2.2\AndroidManifest.xml:27:13-37
+33
+34        <provider
+34-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\81ea05e93bc43e6a76e0080a95e17c64\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:25:9-29:43
+35            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+35-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\81ea05e93bc43e6a76e0080a95e17c64\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:26:13-79
+36            android:authorities="com.example.roomapp.lifecycle-process"
+36-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\81ea05e93bc43e6a76e0080a95e17c64\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:27:13-69
+37            android:exported="false"
+37-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\81ea05e93bc43e6a76e0080a95e17c64\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:28:13-37
+38            android:multiprocess="true" />
+38-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\81ea05e93bc43e6a76e0080a95e17c64\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:29:13-40
+39    </application>
+40
+41</manifest>

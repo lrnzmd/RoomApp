@@ -9,7 +9,7 @@ import androidx.room.Query
 interface WordDao {
 
     @Query("SELECT * from word_table ORDER BY word ASC")
-    fun getAlphabetizedWords(): List<Word>
+    suspend fun getAlphabetizedWords(): List<Word>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insert(word: Word)
